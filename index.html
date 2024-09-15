@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">Abdul Razaque</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm Abdul Razaque, a Full-Stack Developer specializing in creating amazing web experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+   <!-- About Section -->
+<section id="about" class="about-section">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="Profile.jpg" alt="Abdul Razaque Photo" class="profile-photo">
+            <p>I am Abdul Razaque, a dedicated and skilled Full-Stack Developer with over three years of experience.
+                 I am currently pursuing a degree in Computer Science at Sukkur IBA University.
+                 My expertise spans across frontend and backend development, with a
+                   strong focus on technologies like JavaScript, React, Next.js, Node.js,
+                 and MongoDB. You're passionate about learning, solving real-world problems through 
+                 technology.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Water Consumption Tracking System</h3>
+                    <p>In this project, I have developed a system that allows users to input their
+                         daily or monthly water usage data, and the system will calculate and provide insights
+                          into their water consumption patterns. The backend would use MySQL to store water usage data
+                          for each user, including factors such as time, volume of water consumed, and average consumption trends. 
+                        The system can also generate reports on excessive usage or suggest water-saving tips based on the data. </p>
+                </div>
+                <div class="project-card">
+                    <h3>WAPDA Electricity Project</h3>
+                    <p>In my second semester, I developed a comprehensive project focused on electricity management using
+                         JAVA. The application is designed to collect user input regarding electricity consumption and
+                          subsequently provide detailed information about the units consumed. The project integrates a MySQL 
+                          database in the backend to efficiently store and retrieve user data. By leveraging JAVA's robust 
+                          programming capabilities and MySQL's reliable data management, the system ensures 
+                        accurate and real-time tracking of electricity usage, offering valuable insights
+                         to users for better energy management.</p>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <h3>Programming with JavaScript</h3>
+                    <p>Issued by: Meta</p>
+                    <p>Platform: Coursera</p>
+                    <p>Jan 18, 2024</p>
+                    <a href="#photo1" class="view-photo-btn">View Certificate</a>
+                </div>
+                <div class="certification-card">
+                    <h3>Introduction to Web Development</h3>
+                    <p>Issued by: UC Davis</p>
+                    <p>Platform: Coursera</p>
+                    <p>Jul 7, 2023</p>
+                    <a href="#photo2" class="view-photo-btn">View Certificate</a>
+                </div>
+                <!-- Add more certification cards as needed -->
+            </div>
+        </div>
+        <!-- Modal for displaying the certificate photo -->
+        <div id="photo1" class="photo-modal">
+            <a href="#" class="close-btn">&times;</a>
+            <img class="modal-content" src="photo1.png" alt="Certificate Photo 1">
+        </div>
+        <div id="photo2" class="photo-modal">
+            <a href="#" class="close-btn">&times;</a>
+            <img class="modal-content" src="photo2.png" alt="Certificate Photo 2">
+        </div>
+    </section>
+    
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you want to get in touch, feel free to drop a message below.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p> 2024 Abdul Razaque. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
